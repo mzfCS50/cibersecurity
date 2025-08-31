@@ -1,6 +1,5 @@
 def encrypt():
-	message = input("Type your message: ")
-	message = message.upper()
+	message = input("Type your message: ").upper()
 	key = int(input("Type the key: "))
 	cipher = ""
 	for char in message:
@@ -14,8 +13,7 @@ def encrypt():
 
 
 def decrypt():
-	cipher = input("Type the ciphered text: ")
-	cipher = cipher.upper()
+	cipher = input("Type the ciphered text: ").upper()
 	key = int(input("Type the key: "))
 	decipher = ""
 	for char in cipher:
